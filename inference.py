@@ -10,8 +10,7 @@ def main():
     os.environ["KAGGLE_API_TOKEN"] = "KGAT_6f50037781d30c5200c529ca93212a82"
     dataset_path = kagglehub.dataset_download("kapturovalexander/fruits-by-yolo-fruits-detection")
     real_data_path = os.path.join(dataset_path, "Fruits by YOLO", "Fruits by YOLO")
-
-    MODEL_PATH = r"runs\detect\fruits_yolo_model-15\weights\best.pt"
+    MODEL_PATH = "weights/best.pt"
 
     IMAGE_PATH = os.path.join(real_data_path, "test", "images", "apple_1.jpg") 
     

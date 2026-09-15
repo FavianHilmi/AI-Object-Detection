@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Environment Variables / Token Rahasia
+.env
+
+# Model Weights & Hasil Training YOLO
+runs/
+*.pt
+
+# Cache Python & PyTorch
+__pycache__/
+*.cache
+.pytest_cache/
+
+# Dataset lokal / temporary file
+datasets/
+*.csv
